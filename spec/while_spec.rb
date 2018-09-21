@@ -7,3 +7,11 @@ describe "#using_while" do
 	expect{ using_while }.to output(looping_string).to_stdout
 	end
 end
+
+def using_while
+	girl = 0
+	while girl <10
+		girl =+1
+		puts "Wingardium Leviosa"
+	end
+end
